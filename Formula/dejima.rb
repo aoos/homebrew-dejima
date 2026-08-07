@@ -17,22 +17,22 @@ class Dejima < Formula
   on_macos do
     on_arm do
       url "https://github.com/aoos/dejima/releases/download/v#{version}/dejima_v#{version}_darwin_arm64.tar.gz"
-      sha256 "af8489ce67be8f017bd1823f9b3bbb55b45b1202f1912ee886a65719a1a294b4"
+      sha256 "7f14a5f338c960a8c3cef1d6d1f9fc91a16873f6b23362aa582ab2b55001c54e"
     end
     on_intel do
       url "https://github.com/aoos/dejima/releases/download/v#{version}/dejima_v#{version}_darwin_amd64.tar.gz"
-      sha256 "76a12a40ca3bf7804a1e3ab6b124b1067d619a887d35f1512683122a8cdbf129"
+      sha256 "65c1195cd71d92ffd32f6cbd9ef79b87e570ad155a563512d3c86a4a5f49ec64"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/aoos/dejima/releases/download/v#{version}/dejima_v#{version}_linux_arm64.tar.gz"
-      sha256 "86512b57b654e3d0b5d2a399653679fbfba95d1745816c79db618aaa19fa0c73"
+      sha256 "4435728d76ad438d45f571ddfe8914b5e19bab89bc0ddff342d35190fca19daf"
     end
     on_intel do
       url "https://github.com/aoos/dejima/releases/download/v#{version}/dejima_v#{version}_linux_amd64.tar.gz"
-      sha256 "f6377c031c99e7aab11fdef0afc8981fc908327fc3a080251cd312c462a60bc4"
+      sha256 "01625a111b1239ec342e20ce170ebd96fede5416f7c73bfabbc36f0f93526af4"
     end
   end
 
