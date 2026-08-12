@@ -11,28 +11,28 @@
 class Dejima < Formula
   desc "Substrate for multi-device AI agent workflows"
   homepage "https://dejima.tech"
-  version "0.8.62"
+  version "0.8.63"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/aoos/dejima/releases/download/v#{version}/dejima_v#{version}_darwin_arm64.tar.gz"
-      sha256 "cf94e5506f66073547bba3244312abf7a2971c65de8568ceb68738354eeab581"
+      sha256 "e724fc3ff80c8f009548566a3a233296317568f5e4503bc84b12058af00352cb"
     end
     on_intel do
       url "https://github.com/aoos/dejima/releases/download/v#{version}/dejima_v#{version}_darwin_amd64.tar.gz"
-      sha256 "0eeec41085b156d9e2cc7faf0a73c5e89f517d50125d9eb77692ebee237d167b"
+      sha256 "3992302c7171bd56e9f8dee93bea44cded46e1289d0b6a6219bbcc936cb91495"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/aoos/dejima/releases/download/v#{version}/dejima_v#{version}_linux_arm64.tar.gz"
-      sha256 "1f2de41cddc7c18ac19d072fe62b5f39ea7b43492269dad87fc2070e65873a2c"
+      sha256 "4d1d5c85949bf1a02d034e71ffa2b7adcfd12f0c46d90843d5755281d74ab59a"
     end
     on_intel do
       url "https://github.com/aoos/dejima/releases/download/v#{version}/dejima_v#{version}_linux_amd64.tar.gz"
-      sha256 "da18c1fab8fd6129816d354d919ae52a48ecaa06f49f505a0de1b65550ecccac"
+      sha256 "2ddb713ffc306275504f9172b40dfeaa321aece6e668bdba2e4e1e65c125c1c5"
     end
   end
 
@@ -56,7 +56,7 @@ class Dejima < Formula
     <<~CAVEAT
       Dejima needs a Docker runtime to run the daemon + islands. On macOS:
 
-        brew install --cask docker        # Docker Desktop (recommended)
+        brew install --cask docker-desktop        # Docker Desktop (recommended)
         brew install --cask orbstack      # or OrbStack (personal-use license)
         brew install colima docker        # or colima (CLI-only, OSS)
 
