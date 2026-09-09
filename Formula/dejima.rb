@@ -11,28 +11,28 @@
 class Dejima < Formula
   desc "Substrate for multi-device AI agent workflows"
   homepage "https://dejima.tech"
-  version "0.9.6"
+  version "0.9.7"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/aoos/dejima/releases/download/v#{version}/dejima_v#{version}_darwin_arm64.tar.gz"
-      sha256 "ea362afcdea9e47d007171feb5b3f00c79db4629887b02e0f63a5913a02c4c16"
+      sha256 "3c2a93df62bc2aa5402e587d52c372e18413ee7b202e505381ba80d11bf152f0"
     end
     on_intel do
       url "https://github.com/aoos/dejima/releases/download/v#{version}/dejima_v#{version}_darwin_amd64.tar.gz"
-      sha256 "4761e9f5a2c9d640fc6e3c0f3bf2d1c32da59b7901cf237d11dc6e283cbb4ecb"
+      sha256 "07c6ec774d49b272f4b996469bfe6b83fd431c0ae19a631d4d25398316d6f570"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/aoos/dejima/releases/download/v#{version}/dejima_v#{version}_linux_arm64.tar.gz"
-      sha256 "919e579694b740d8a510d0cb7abc484d5f4ec4676da286b221837994a10cf308"
+      sha256 "587fde676940593a35777181362dbb9793a949a8bc4cb508a74dcc5b2296c032"
     end
     on_intel do
       url "https://github.com/aoos/dejima/releases/download/v#{version}/dejima_v#{version}_linux_amd64.tar.gz"
-      sha256 "d3fbb6a25f41a43f0a6384b3aad47bfd529d107352c4cdb6c356b99f51a05ae1"
+      sha256 "5dd323de00ae2a8ca53f612fb0940557c472219e9bb5d3aae0c370d1161b4e73"
     end
   end
 
